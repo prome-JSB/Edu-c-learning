@@ -2,7 +2,7 @@
 
 int main() {
     int number;
-    printf("Enter the number:"),
+    printf("Enter the number:");
     scanf("%d",&number);
     printf("Address of number :%p\n",&number);
     printf("Remainder when divided by 2 :%d\n",number %2);
